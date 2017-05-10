@@ -7,7 +7,6 @@
 module.exports =
   {
     "identity": "Ingreientes_por_ronda",
-    "connection": "",
     "autoCreatedAt": false,
     "autoUpdatedAt": false,
     "attributes": {

@@ -7,7 +7,6 @@
 module.exports =
   {
     "identity": "Plato_tiene_ingredientes",
-    "connection": "",
     "autoCreatedAt": false,
     "autoUpdatedAt": false,
     "attributes": {

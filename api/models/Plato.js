@@ -7,7 +7,6 @@
 module.exports =
   {
     "identity": "Plato",
-    "connection": "",
     "autoCreatedAt": false,
     "autoUpdatedAt": false,
     "attributes": {

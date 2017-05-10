@@ -7,7 +7,6 @@
 module.exports =
   {
     "identity": "Concursante",
-    "connection": "",
     "autoCreatedAt": false,
     "autoUpdatedAt": false,
     "attributes": {

@@ -7,7 +7,6 @@
 module.exports =
   {
     "identity": "Jurado",
-    "connection": "",
     "autoCreatedAt": false,
     "autoUpdatedAt": false,
     "attributes": {

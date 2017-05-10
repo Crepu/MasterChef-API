@@ -7,7 +7,6 @@
 module.exports =
   {
     "identity": "Ingredientes",
-    "connection": "",
     "autoCreatedAt": false,
     "autoUpdatedAt": false,
     "attributes": {

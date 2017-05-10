@@ -7,7 +7,6 @@
 module.exports =
   {
     "identity": "Ronda",
-    "connection": "",
     "autoCreatedAt": false,
     "autoUpdatedAt": false,
     "attributes": {

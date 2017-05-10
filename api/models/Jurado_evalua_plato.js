@@ -7,7 +7,6 @@
 module.exports =
   {
     "identity": "Jurado_evalua_plato",
-    "connection": "",
     "autoCreatedAt": false,
     "autoUpdatedAt": false,
     "attributes": {

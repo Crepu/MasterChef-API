@@ -45,7 +45,15 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
-  '/hello':'PlatoController.hello',
-  '/bye':'PlatoController.bye'
+  '/concursantes':'MainController.getConcursantes',
+  '/platos':'MainController.getPlatos',
+  '/ingredientes':'MainController.getIngredientes',
+  '/rondas':'MainController.getRondas',
+  '/concursante/:id':'MainController.oneConcursante',
+  '/plato/:id':'MainController.onePlato',
+  '/ingrediente/:id':'MainController.oneIngrediente',
+  '/ronda/:id':'MainController.oneRonda',
+  '/eliminar/:id':'MainController.eliminar'
+
 
 };
