@@ -1,8 +1,8 @@
 {
   "name": "MasterChef",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "1.0.0",
+  "description": "API para el ramo de Arquitectura de Sistemas",
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
@@ -34,5 +34,5 @@
     "url": "https://github.com/Crepu/MasterChef-API.git"
   },
   "author": "crepu",
-  "license": ""
+  "license": "GPL-3.0"
 }
