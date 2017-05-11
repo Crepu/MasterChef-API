@@ -79,6 +79,11 @@ module.exports.connections = {
     host      : 'localhost',
     port      : 3306,
     user      : 'root'
+  },
+
+ mysqlheroku: {
+    adapter   : 'sails-mysql',
+    url       : 'mysql://t1h265adx9xxlqtd:npv8ya8riucckhzh@s54ham9zz83czkff.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/j5ow33j5no4kv408'
   }
 
   /***************************************************************************
