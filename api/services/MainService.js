@@ -12,7 +12,7 @@ module.exports = {
 	    })
 	},
   getIngredientes: function(next) {
-	    Ingrediente.find().exec(function(err, todos) {
+	    Ingredientes.find().exec(function(err, todos) {
 	      if(err) throw err;
 	      next(todos);
 	    })

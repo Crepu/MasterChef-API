@@ -39,8 +39,15 @@ module.exports = {
 	    });
 	},
 
+  detallePlato: function (req, res) {
+        Plato_tiene_ingredientes.find({ Plat: req.params.id }).exec(function (err, detallePlato) {
+            if(err) return res.json({ err: err}, 500);
+            else res.json(detallePlato);
+        });
+  },
+
   oneIngrediente: function (req, res) {
-	    Ingrediente.findOne({ id: req.params.id }).exec(function (err, user) {
+	    Ingredientes.findOne({ id: req.params.id }).exec(function (err, user) {
 	      if(err) return res.json({ err: err }, 500);
 	      else res.json(user);
 	    });

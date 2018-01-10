@@ -53,7 +53,8 @@ module.exports.routes = {
   '/plato/:id':'MainController.onePlato',
   '/ingrediente/:id':'MainController.oneIngrediente',
   '/ronda/:id':'MainController.oneRonda',
-  '/eliminar/:id':'MainController.eliminar'
+  '/eliminar/:id':'MainController.eliminar',
+  '/detallePlato/:id':'MainController.detallePlato'
 
 
 };
